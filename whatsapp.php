@@ -3,9 +3,11 @@
 	$token ='token';
 	$instance='instance';
 	$message ='your message';
+	//chat group id 
+	$chatId = 'xxxxx380861-162383xxx@g.us';
 	
 	$data = [
-	          "chatId" => "xxxxx380861-162383xxx@g.us",
+	        'chatId' => $chatId,
                 'body' => $message, // Message
         ];
 	$json = json_encode($data); // Encode data to JSON
